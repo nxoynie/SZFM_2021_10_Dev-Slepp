@@ -19,6 +19,12 @@
 3.2. Megoldott matematikai műveletek eredményének megjelenítése\
 </p>
 
+3.1. Egyszerűbb matematikai műveletek elvégzése\
+3.1.1. Összeadás elvégzése: két szám megadása és a "+" gomb lenyomása után megjelenik az összeadás eredménye\
+3.1.2. Kivonás elvégzése: két szám megadása és a "-" gomb lenyomása után megjelenik a kivonás eredménye\
+3.2. Megoldott matematikai műveletek eredményének megjelenítése\
+
+
 <h2>4. Igényelt üzleti folyamatok</h2>
    <p>4.1. Ablakos megjelenés<br>
    4.1.1. Számok, műveletek bevitele gombokkal<br>
@@ -52,3 +58,4 @@ Egyértelmű és könnyű kezelhetőség.
 |-| K04| Egyszerűen kezelhető rendszer|-|A számológép egyszerűen kezelhető az end-user számára.|
 |-| K05| Képes legyen törölni|-|A számológép képes a törlés műveletre.|
 |-| K06| Pontosan hibátlanul működjön|-|A számológép hibátlanul működik és pontosan végzi el a műveleteket.|
+

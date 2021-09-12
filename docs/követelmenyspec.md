@@ -13,3 +13,9 @@ A számológépek nem tudják kezelni a gyököket és a hatványokat amelyek so
 Számológépeink nem operációs rendszer alatt futó szoftverek. </br>
 Mivel ügyfeleink növekedése mellett egyre több számítást igényelnek egyes feladatok, munkavégzésünk egyre nehezebb.
 </p>
+
+<h2>5. A rendszerre vonatkozó szabályok </h2>
+<p>Platformfüggetlen Java alkalmazás.</br>
+A megkövetelt aritmetikai operátorokat valósítsa meg.</br>
+Egyértelmű és könnyű kezelhetőség.
+</p>

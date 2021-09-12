@@ -42,11 +42,11 @@ A kezelőfelület egyszerű és egyértelmű lesz, bárki használati útmutató
 </p>
 
 <h2>Forgatókönyvek</h2>
--Szám beírása
--Művelet megadása
--Szám beírása
--Egyenlőség/Enter
--Eredmény
+- Szám beírása
+- Művelet megadása
+- Szám beírása
+- Egyenlőség/Enter
+- Eredmény
 
 
 <h2>Jelenlegi üzleti folyamatok modellje</h2>

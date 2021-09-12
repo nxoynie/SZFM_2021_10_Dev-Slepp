@@ -5,4 +5,4 @@ Megállapítottuk, hogy a jövőbeli feladataink elvégzéséhez több funkciór
 A számok törlése nem lehetséges, új szám beirása csak akkor lehetséges, ha elvégezzük a műveletet a hibásan beírt számokkal. \
 A szorzás helyett eddig használt ismételt összeadás elavult és lassítja a folyamatot.\
 Az osztás és a bonyolultabb műveletek elvégzése jelenleg lehetetlen.\
-A kinézet elfogadható, de nem intuitív.\
+A kinézet elfogadható, de nem intuitív.

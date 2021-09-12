@@ -9,3 +9,8 @@ Legyen egy barátságos felhasználói felülete. <br>
 A számológép az említett műveletek mellett tudjon törölni is. <br>
 Fontos, hogy pontosan, hibátlanul működjön, nem megengedhető a hiba. <br>
 </p>
+
+<h2>5. A rendszerre vonatkozó szabályok:</h2>
+<p>
+A rendszer szabványos eszközökkel készüljön, Java programozási nyelvben íródjon. <br>
+</p>

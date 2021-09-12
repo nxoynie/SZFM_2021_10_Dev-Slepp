@@ -40,16 +40,7 @@
 A megkövetelt aritmetikai operátorokat valósítsa meg.</br>
 Egyértelmű és könnyű kezelhetőség.
 </p>
-
-<h2>7. Fogalomszótár</h2>
-   <p>Összevonás: Az összeadás az a műveletet, melynek során két számból összeget képezünk.<br>
-   Kivonás: Különbségnek nevezzük a kivonás eredményeként kapott számot.<br>
-   Szorzás: Valamely mennyiséget, számot annyiszor veszünk összeadandóul, ahányszor a szorzó mutatja.<br>
-   Osztás: Az osztás a szorzás fordított művelete. Osztást végzünk, ha tudjuk, hogy mennyi két szám szorzata, ismerjük az egyik tényezőt, és keressük a másikat.<br>
-   Hatványozás: Ha a hatványozás kitevője pozitív egész szám, akkor a hatványozást egy olyan speciális szorzatként definiáltuk, amelyben a tényezők megegyeznek és a tényezők száma a hatványkitevő értékével egyezik<br>
-   Gyökvonás: A gyökvonás egy matematikai művelet, a hatványozás egyik megfordított (inverz) művelete. Mikor egy számból n-edik gyököt vonunk, olyan számot keresünk, amelyet az n-edik hatványra emelve visszaadja az eredeti számot (ilyen szám nem mindig létezik).</p>
-   
-## 7. Követelmény lista
+## 6. Követelmény lista
 |Modul| ID | Név |V.| Kifejtés|
 |---|---|---|---|---|
 |-| K01| Képes osztani|-|A számológép képes az osztás művelet elvégzésére.|
@@ -59,3 +50,11 @@ Egyértelmű és könnyű kezelhetőség.
 |-| K05| Képes legyen törölni|-|A számológép képes a törlés műveletre.|
 |-| K06| Pontosan hibátlanul működjön|-|A számológép hibátlanul működik és pontosan végzi el a műveleteket.|
 
+<h2>7. Fogalomszótár</h2>
+   <p>Összevonás: Az összeadás az a műveletet, melynek során két számból összeget képezünk.<br>
+   Kivonás: Különbségnek nevezzük a kivonás eredményeként kapott számot.<br>
+   Szorzás: Valamely mennyiséget, számot annyiszor veszünk összeadandóul, ahányszor a szorzó mutatja.<br>
+   Osztás: Az osztás a szorzás fordított művelete. Osztást végzünk, ha tudjuk, hogy mennyi két szám szorzata, ismerjük az egyik tényezőt, és keressük a másikat.<br>
+   Hatványozás: Ha a hatványozás kitevője pozitív egész szám, akkor a hatványozást egy olyan speciális szorzatként definiáltuk, amelyben a tényezők megegyeznek és a tényezők száma a hatványkitevő értékével egyezik<br>
+   Gyökvonás: A gyökvonás egy matematikai művelet, a hatványozás egyik megfordított (inverz) művelete. Mikor egy számból n-edik gyököt vonunk, olyan számot keresünk, amelyet az n-edik hatványra emelve visszaadja az eredeti számot (ilyen szám nem mindig létezik).</p>
+   

@@ -9,4 +9,7 @@ A könyvelés és bármely számítás elvégzésére primitív számológépekk
 Ennek eredményeképpen korlátozott számú munkatársaink nem tudnak folyamatosan ügyfelet fogadni. </br>
 Az ügyfeleknek előfordul, hogy várniuk kell míg valamely munkatársunk fogadni tudja őket. </br>
 Ennek kapcsán ez a kellemetlenség negatív benyomást kelthet rólunk. </br>
+A számológépek nem tudják kezelni a gyököket és a hatványokat amelyek sok szempontból megkönnyítenék és felgyorsítanák dolgozóink feladatait. </br>
+Számológépeink nem operációs rendszer alatt futó szoftverek. </br>
+Mivel ügyfeleink növekedése mellett egyre több számítást igényelnek egyes feladatok, munkavégzésünk egyre nehezebb.
 </p>

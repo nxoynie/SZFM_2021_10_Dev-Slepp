@@ -25,6 +25,12 @@
 |-| K05| Képes legyen törölni|-|A számológép képes a törlés műveletre.|
 |-| K06| Pontosan hibátlanul működjön|-|A számológép hibátlanul működik és pontosan végzi el a műveleteket.|
 </p>
+<h2>Forgatókönyvek</h2>
+-Szám beírása
+-Művelet megadása
+-Szám beírása
+-Egyenlőség/Enter
+-Eredmény
 <h2>Fogalomszótár</h2>
    <p><strong>Összevonás:</strong> Az összeadás az a műveletet, melynek során két számból összeget képezünk.<br>
    <strong>Kivonás:</strong> Különbségnek nevezzük a kivonás eredményeként kapott számot.<br>

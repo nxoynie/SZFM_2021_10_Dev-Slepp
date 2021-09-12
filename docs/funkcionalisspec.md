@@ -41,6 +41,14 @@ A kezelőfelület egyszerű és egyértelmű lesz, bárki használati útmutató
 |-| K06| Pontosan hibátlanul működjön|-|A számológép hibátlanul működik és pontosan végzi el a műveleteket.|
 </p>
 
+<h2>Forgatókönyvek</h2>
+-Szám beírása
+-Művelet megadása
+-Szám beírása
+-Egyenlőség/Enter
+-Eredmény
+
+
 <h2>Jelenlegi üzleti folyamatok modellje</h2>
 
 A jelenlegi helyzetünkben a számológépünk csak összeadni és kivonni tud, illetve ezeknek a műveleteknek az eredményét megjeleníteni.\
@@ -59,6 +67,7 @@ Ha egy külső forrásból kapott művelet végeredménye gyanús, az alkalmazá
 Az alkalmazást tehát fel lehet használni több módon is:\
 1: Egy matematikai művelet kiszámitása, az eredmény késöbbi felhasználása céljából\
 2: Egy művelet eredményének leelenőrzése, a hiba elkerülése végett
+
 
 
 <h2>Fogalomszótár</h2>

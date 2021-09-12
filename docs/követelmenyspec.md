@@ -49,7 +49,7 @@ Egyértelmű és könnyű kezelhetőség.
    Hatványozás: Ha a hatványozás kitevője pozitív egész szám, akkor a hatványozást egy olyan speciális szorzatként definiáltuk, amelyben a tényezők megegyeznek és a tényezők száma a hatványkitevő értékével egyezik<br>
    Gyökvonás: A gyökvonás egy matematikai művelet, a hatványozás egyik megfordított (inverz) művelete. Mikor egy számból n-edik gyököt vonunk, olyan számot keresünk, amelyet az n-edik hatványra emelve visszaadja az eredeti számot (ilyen szám nem mindig létezik).</p>
    
-## 7. Követelmény lista
+## 8. Követelmény lista
 |Modul| ID | Név |V.| Kifejtés|
 |---|---|---|---|---|
 |-| K01| Képes osztani|-|A számológép képes az osztás művelet elvégzésére.|

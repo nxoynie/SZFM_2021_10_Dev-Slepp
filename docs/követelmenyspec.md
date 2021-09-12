@@ -10,10 +10,14 @@
   Fontos, hogy pontosan, hibátlanul működjön, nem megengedhető a hiba. <br>
 </p>
 
-<h2>5. A rendszerre vonatkozó szabályok:</h2>
-<p>
-  A rendszer szabványos eszközökkel készüljön, Java programozási nyelvben íródjon. <br>
-</p>
+<h2>3. Jelenlegi üzleti folyamatok</h2>
+
+
+3.1. Egyszerűbb matematikai műveletek elvégzése\
+3.1.1. Összeadás elvégzése: két szám megadása és a "+" gomb lenyomása után megjelenik az összeadás eredménye\
+3.1.2. Kivonás elvégzése: két szám megadása és a "-" gomb lenyomása után megjelenik a kivonás eredménye\
+3.2. Megoldott matematikai műveletek eredményének megjelenítése\
+
 
 <h2>4. Igényelt üzleti folyamatok</h2>
    <p>4.1. Ablakos megjelenés<br>
@@ -24,6 +28,12 @@
    4.2.2. Osztás lehetősége<br>
    4.2.3. Hatványozás lehetősége<br>
    4.2.4. Gyökvonás lehetősége</p>
+   
+<h2>5. A rendszerre vonatkozó szabályok </h2>
+<p>Platformfüggetlen Java alkalmazás.</br>
+A megkövetelt aritmetikai operátorokat valósítsa meg.</br>
+Egyértelmű és könnyű kezelhetőség.
+</p>
 
 <h2>7. Fogalomszótár</h2>
    <p>Összevonás: Az összeadás az a műveletet, melynek során két számból összeget képezünk.<br>

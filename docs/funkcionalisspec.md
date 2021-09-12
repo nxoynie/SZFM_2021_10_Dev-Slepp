@@ -9,3 +9,8 @@
     A felhasználói felületet is letisztult, barátságosra tervezzük. <br>
     A számológép pontosan, és hibátlanul fog működni. <br>
 </p>
+
+<h2>A rendszerre vonatkozó szabályok leírása</h2>
+<p>
+    Az igények szerint a rendszer szabványos eszközökkel fog készülni, Java programozási nyelvben. <br>
+</p>

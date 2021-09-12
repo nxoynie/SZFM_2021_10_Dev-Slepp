@@ -40,7 +40,8 @@
 A megkövetelt aritmetikai operátorokat valósítsa meg.</br>
 Egyértelmű és könnyű kezelhetőség.
 </p>
-## 6. Követelmény lista
+
+<h2>## 6. Követelmény lista</h2>
 |Modul| ID | Név |V.| Kifejtés|
 |---|---|---|---|---|
 |-| K01| Képes osztani|-|A számológép képes az osztás művelet elvégzésére.|

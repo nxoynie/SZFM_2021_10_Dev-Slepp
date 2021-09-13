@@ -77,6 +77,7 @@ Az alkalmazást tehát fel lehet használni több módon is:\
 2: Egy művelet eredményének leelenőrzése, a hiba elkerülése végett
 
 <h2>Képernyőterv<h2>
+
 ![Képernyőterv az alkalmazásról](images/calculator.png)
 
 <h2>Fogalomszótár</h2>

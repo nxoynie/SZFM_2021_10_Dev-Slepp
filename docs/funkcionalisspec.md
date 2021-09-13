@@ -1,5 +1,12 @@
 <h1>Funkcionális specifikáció</h1>
 
+<h2>A rendszer céljai és nem céljai</h2>
+<p>
+A rendszer célja a felhasználó számára biztosítani egy egyszerűbb matematikai műveleteket gyorsan megoldó számológépet.
+Ezen egyszerűbb számítások: összeadás, kivonás, szorzás, osztás, hatványozás, gyökvonás.
+A rendszernek nem célja egyéb matematikai műveletek megoldása, például logaritmus, trigonometrikus függvények megoldása.
+</p>
+
 <h2>Jelenlegi helyzet leírása</h2>
 <p>
 Az önök leírása alapján arra jutottunk, hogy rendszerük effektívé tételének megvalósítása könnyen végrehajtható feladat számunkra.</br>

@@ -2,8 +2,8 @@
 
 <h2>A rendszer céljai és nem céljai</h2>
 <p>
-A rendszer célja a felhasználó számára biztosítani egy egyszerűbb matematikai műveleteket gyorsan megoldó számológépet.
-Ezen egyszerűbb számítások: összeadás, kivonás, szorzás, osztás, hatványozás, gyökvonás.
+A rendszer célja a felhasználó számára biztosítani egy egyszerűbb matematikai műveleteket gyorsan megoldó számológépet.</br>
+Ezen egyszerűbb számítások: összeadás, kivonás, szorzás, osztás, hatványozás, gyökvonás.</br>
 A rendszernek nem célja egyéb matematikai műveletek megoldása, például logaritmus vagy trigonometrikus függvények megoldása.
 </p>
 
@@ -76,8 +76,8 @@ Az alkalmazást tehát fel lehet használni több módon is:\
 1: Egy matematikai művelet kiszámitása, az eredmény késöbbi felhasználása céljából\
 2: Egy művelet eredményének leelenőrzése, a hiba elkerülése végett
 
-<h2>Képernyőterv</h2>
-![Képernyőterv az alkalmazásról](/docs/images/calculator.png)
+##Képernyőterv
+![Képernyőterv az alkalmazásról](images/calculator.png)
 
 <h2>Fogalomszótár</h2>
    <p><strong>Összevonás:</strong> Az összeadás az a műveletet, melynek során két számból összeget képezünk.<br>

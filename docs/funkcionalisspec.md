@@ -76,7 +76,7 @@ Az alkalmazást tehát fel lehet használni több módon is:\
 1: Egy matematikai művelet kiszámitása, az eredmény késöbbi felhasználása céljából\
 2: Egy művelet eredményének leelenőrzése, a hiba elkerülése végett
 
-##Képernyőterv
+<h2>Képernyőterv<h2>
 ![Képernyőterv az alkalmazásról](images/calculator.png)
 
 <h2>Fogalomszótár</h2>

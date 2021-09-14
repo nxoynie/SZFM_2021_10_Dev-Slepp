@@ -39,3 +39,7 @@
 
 A kész projektből generálunk egy .jar fájlt, melyből konvertálunk egy .exe fájlt, ezáltal az end-user-nek nem lesz más dolga ,mint a .exe fájlt elindítani és használható is az alkalmazás. 
 Forrás: ( https://www.genuinecoder.com/convert-java-jar-to-exe/ )
+
+## Karbantartási terv
+A projekt elkészítése során figyelünk arra ,hogy a függőségek megadása során pontos verziószámokat használjunk. Ezáltal elkerülve az eshetőséget arra ,hogy a programunk ne tudjon megfelelően funckcionálni, ha a verzióváltás során az adott függősén belül minket érintő változás történne. 
+

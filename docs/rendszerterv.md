@@ -34,3 +34,8 @@
 
 5. **Sikeres teszt kritériumai:**
 - A program akkor megy át a teszteken, ha eredményei megegyeznek az elvártakkal, illetve a kontroll eszközökön kapott eredményekkel. 
+
+## Telepítési terv
+
+A kész projektből generálunk egy .jar fájlt, melyből konvertálunk egy .exe fájlt, ezáltal az end-user-nek nem lesz más dolga ,mint a .exe fájlt elindítani és használható is az alkalmazás. 
+Forrás: ( https://www.genuinecoder.com/convert-java-jar-to-exe/ )

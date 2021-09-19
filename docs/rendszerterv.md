@@ -13,7 +13,7 @@
     <li>x64</li>
     <li>x86</li>
     </ul>
-<li> Csak saját komponenseket használunk fel<li>
+<li> Csak saját komponenseket használunk fel</li>
 <li>Fejlesztői eszközök:</li>
 <ul>
     <li>Visual Studio</li>
@@ -23,3 +23,14 @@
     </ul>
 </ul>
 <h2>Implementációs terv</h2>
+<ul>
+<li>Az alkalmazás megirásához a Java programozási nyelvet használjuk fel. Ennek főbb okai:</li>
+<ul>
+<li>A Java egy moduláris nyelv, megkönnyíti a csapatban való munkát
+<li>Platform független. Működik bármilyen operációs rendszeren, ha azon van egy JVM (Java Virtual Machine)
+<li>Objektum orientált
+</ul>
+<li>A számológép kinézetét JavaFX Scene Builderrel valósítjuk meg</li>
+<ul><li>A kinézet a Funkcionális specifikációban megaddottak alapján fog kinézni</li></ul>
+<li>A programban osztályok segítségével jutunk el a célhoz
+</ul>

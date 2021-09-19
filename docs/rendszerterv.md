@@ -31,3 +31,41 @@ Az alkalmazás rétegei a Model, View, és Controller rétegek.<br>
 A rendszer könnyen bõvíthetõ extra funkciókkal.<br>
 Biztonsági funkciókra nincs szükség.</p>
 
+<h2>Tesztjegyző könyv:</h2>
+<table>
+    <tr>
+        <td>Rendszer megnevezése</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tesztelés várható idõtartama</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tesztelés erõforrás-szükséglete Vállalkozó oldalon</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tesztelés erõforrás-szükséglete Végsõ Kedvezményezett oldalán</td>
+        <td></td>
+    </tr>
+</table>
+
+<p>Átvételi eljáráson résztvevõk<br>
+Vállalkozó részérõl:<br>
+Aláírás:<br>
+Név:<br>
+Beosztás:<br>
+Dátum:</p>
+
+<p>Végsõ Kedvezményezett részérõl<br>
+Aláírás:<br>
+Név:<br>
+Beosztás:<br>
+Dátum:</p>
+
+|Sorszám|Funkció leírása|Vizsgálat módja/eszköze|Elvárt eredmény|Eredmény|Megfelelõsség státusza [Megfelelõ, Pótlás határideje:]|
+|---|---|---|---|---|---|
+|1.|||||
+|2.|||||
+|3.|||||

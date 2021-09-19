@@ -25,3 +25,9 @@ Szatmári Boldizsár: Csapat</p>
 4. UI kivitelezése<br>
 5. Funkciók integrálása</p>
 
+<h2>Architekturális terv:</h2>
+<p>A projekt során egy MVC Java alkalmazás fog megszületni.<br>
+Az alkalmazás rétegei a Model, View, és Controller rétegek.<br>
+A rendszer könnyen bõvíthetõ extra funkciókkal.<br>
+Biztonsági funkciókra nincs szükség.</p>
+

@@ -19,3 +19,13 @@ megfelelő teljesítmény-határértékek között vannak (mért válaszidő vag
 idő kisebb az előre definiált válasz- vagy elvégzési időnél – terheléses teszt).
 - a manuális tesztek során legalább 98%-ban MEGFELELT a program
 
+## *Tesztelés menete*
+
+### *Rendszerteszteléshez kapcsolódó határidők*
+| *Sorszám* | *Tevékenység részletezése* | *Határidő* |
+| ----------- | ----------- | ----------- |
+| 1.| A kifejlesztett funkcionalitás szállító oldali tesztelésének lezárása, az átadás-átvételi folyamat megkezdése.  | - |
+| 2.| A rendszerek átadás-átvételi folyamatának lezárása. (Rendszerspecifikus átadás-átvételi tesztek elvégzése, eredmények ellenőrzése és ellenjegyzése.)  | - |
+| 3.| A kifejlesztett funkcionalitás éles üzembe állítása | - |
+
+

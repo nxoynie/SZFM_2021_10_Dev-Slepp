@@ -154,7 +154,7 @@
                <Cursor fx:constant="HAND" />
             </cursor>
          </Button>
-         <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="75.0" text="x²" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="75.0" text="xʸ" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
             <font>
                <Font size="17.0" />
             </font>

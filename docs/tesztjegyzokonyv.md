@@ -28,4 +28,25 @@ idő kisebb az előre definiált válasz- vagy elvégzési időnél – terhelé
 | 2.| A rendszerek átadás-átvételi folyamatának lezárása. (Rendszerspecifikus átadás-átvételi tesztek elvégzése, eredmények ellenőrzése és ellenjegyzése.)  | - |
 | 3.| A kifejlesztett funkcionalitás éles üzembe állítása | - |
 
+## *Tesztelési folyamat leírása*
+
+A tesztelési folyamat váza:
+- előzetes tesztek validálása, elfogadása: termék megfelelőségek vizsgálata, összevetés az
+adott specifikációkkal (amennyire lehet, ki kell terjednie a felhasznált eszközök szintjére),
+- tesztelési folyamatok ellenőrzése, elfogadása
+- tesztek műszaki kiértékelése – a kapott eredmények megfelelősségének vizsgálata.
+
+A jelenlegi projektben kialakított rendszerek tesztelését szoftverfejlesztői csapat végzi. A tesztelési tervek kitérnek az elvégezendő fejlesztői, felhasználói, funkcionálási és egyéb tesztek folyamatára, ütemezésére. \
+A tesztelés jelen projektben funkcionális tesztelést jelent. \ 
+A tesztek fő szempontja funkcionális és technikai ellenőrzés, melyeket
+követően a szükséges javítások elvégzésére kerül sor. A tesztekről tesztelési jegyzőkönyvek
+készülnek.
+Az átadás-átvételi tesztek megkezdését kezdeményezni a sikeres, előzetesen Végső
+kedvezményezettnek átadott és előzetesen egyeztetett tesztelési metódus alapján végzett vállalkozói
+tesztelési jegyzőkönyvek birtokában lehetséges. \
+Az átadás-átvételi tesztek lebonyolítása Végső kedvezményezett minőségbiztosítójának a feladata, itt
+a Vállalkozó részéről csak a tesztekben való közreműködés és a feltárt hibák elhárítása az elvárt. A
+teszteket a Minőségbiztosítási tervnek megfelelően kell elvégezni. \
+Az átadás-átvétel akkor tekinthető sikeresnek, ha az átadás-átvételre felajánlott rendszerek a
+Rendszertervekben, valamint a Minőségbiztosítási tervben foglalt feltételeknek megfelelnek.
 

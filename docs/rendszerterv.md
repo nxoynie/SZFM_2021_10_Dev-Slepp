@@ -259,6 +259,3 @@ A rendszer fontosabb komponensei:
 - Vezérlőt tartalmazó komponens, mely a Vezérlésért felelős, a felhasználó által generált eseményekre egy helyes választ adni a modell segítségével.
 - Nézetet tartalmazó FXML-t megvalósító komponens.
 - Nézetet stilizáló CSS-ben megírt rész.
-
-
-

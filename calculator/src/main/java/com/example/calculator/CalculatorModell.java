@@ -1,5 +1,5 @@
 package com.example.calculator;
-import java.lang.Math.pow;
+import java.lang.Math;
 
 public class CalculatorModell {
 
@@ -96,6 +96,7 @@ public class CalculatorModell {
 
     //////// ROOT  ////////////
 
+    // second parameter is the root number
     public double root(int a, int b){
         return  pow(a, 1/b);
     }

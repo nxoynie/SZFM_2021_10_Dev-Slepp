@@ -1,5 +1,6 @@
 # Rendszerterv
 
+
 <h2>Projekt terv:</h2>
 
 <h3>Projektszerepkörök, felelõsségek:</h3>
@@ -258,4 +259,6 @@ A rendszer fontosabb komponensei:
 - Modellt tartalmazó komponens, mely a Modell részét valósítja meg az alkalmazásnak.
 - Vezérlőt tartalmazó komponens, mely a Vezérlésért felelős, a felhasználó által generált eseményekre egy helyes választ adni a modell segítségével.
 - Nézetet tartalmazó FXML-t megvalósító komponens.
+
+- Nézetet stilizáló CSS-ben megírt rész.
 - Nézetet stilizáló CSS-ben megírt rész.

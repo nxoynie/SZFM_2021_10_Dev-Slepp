@@ -262,6 +262,3 @@ A rendszer fontosabb komponensei:
 
 - Nézetet stilizáló CSS-ben megírt rész.
 - Nézetet stilizáló CSS-ben megírt rész.
-
-
-

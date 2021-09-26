@@ -78,6 +78,7 @@ A manuális tesztelés alatt a Microsoft beépített számológépét vettük re
 ### Gyökvonás manuális tesztelése
 ![Gyökvonás manuális tesztelése](images/manual_test_6.PNG)
 
+
 ## **Fizikai eszközzel való tesztelés**
 
 A fizikai eszközzel történő tesztelés során egy SHARP multifunkcionális számológéppel hasonlítottuk össze számológépünket. \
@@ -96,3 +97,15 @@ A fizikai eszközzel történő tesztelés során egy SHARP multifunkcionális s
 ![Hatványozás fizikai tesztelése](images/fizikai_eszkoz_teszt_3.jpg)
 ### Gyökvonás fizikai eszközzel történő összehasonlítása
 ![Gyökvonás fizikai tesztelése](images/fizikai_eszkoz_teszt_1.jpg)
+
+
+ Teszt | Eredmény| Művelet | Helyes végeredmény | Kapott végeredmény |
+ :----:        |  :-----:        | :------: | :------: | :----: |  
+ Összeadás | Sikeres | 5+10 | 15 | 15 | 
+ Kivonás | Sikeres | 3-1 | 2 | 2
+ Osztás | Sikeres | 5/0 | Nem elvégezhető | error |
+ Szorzás | Sikeres | 4*4 | 16 | 16 |
+ Gyökvonás| Sikeres | √9 | 3| 3 |
+ Hatványozás | Sikeres | 2^3 | 8 | 8 |
+ Clear gomb | Sikeres | - | - | - |
+

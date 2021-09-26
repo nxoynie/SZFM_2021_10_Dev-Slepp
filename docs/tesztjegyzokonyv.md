@@ -77,3 +77,22 @@ A manuális tesztelés alatt a Microsoft beépített számológépét vettük re
 ![Hatványozás manuális tesztelése](images/manual_test_5.PNG)
 ### Gyökvonás manuális tesztelése
 ![Gyökvonás manuális tesztelése](images/manual_test_6.PNG)
+
+## **Fizikai eszközzel való tesztelés**
+
+A fizikai eszközzel történő tesztelés során egy SHARP multifunkcionális számológéppel hasonlítottuk össze számológépünket. \
+*A projekt 100%-osan átment a fizikai eszköz teszteken.*
+### Szorzás fizikai eszközzel történő összehasonlítása
+![Szorzás fizikai tesztelése](images/fizikai_eszkoz_teszt_4.PNG)
+### Osztás fizikai eszközzel történő összehasonlítása
+![Osztás fizikai tesztelése](images/fizikai_eszkoz_teszt_5.PNG)
+### Osztás 0-val fizikai eszközzel történő összehasonlítása
+![Osztás 0-val fizikai tesztelése](images/fizikai_eszkoz_teszt_7.PNG)
+### Összeadás fizikai eszközzel történő összehasonlítása
+![Összeadás fizikai tesztelése](images/fizikai_eszkoz_teszt_2.PNG)
+### Kivonás fizikai eszközzel történő összehasonlítása
+![Kivonás fizikai tesztelése](images/fizikai_eszkoz_teszt_6.PNG)
+### Hatványozás fizikai eszközzel történő összehasonlítása
+![Hatványozás fizikai tesztelése](images/fizikai_eszkoz_teszt_3.PNG)
+### Gyökvonás fizikai eszközzel történő összehasonlítása
+![Gyökvonás fizikai tesztelése](images/fizikai_eszkoz_teszt_1.PNG)

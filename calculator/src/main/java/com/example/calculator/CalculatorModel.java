@@ -1,10 +1,11 @@
 package com.example.calculator;
+package calc;
+
 import java.lang.Math;
 
+public class CalculatorModel {
 
-import static java.lang.Math.pow;
-
-public class CalculatorModell {
+    public CalculatorModel(){};
 
 
     ////// ADDITION //////////////////
@@ -82,38 +83,31 @@ public class CalculatorModell {
     //////// EXPONENTATION  ////////////
 
     public double exponentation(int a, int b){
-        return  pow(a, b);
+        return  Math.pow(a, b);
     }
 
-    public double exponentation(float a, float b){
-        return  pow(a, b);
+    public double exponentation(double a, double b){
+        return  Math.pow(a, b);
     }
 
-    public double exponentation(float a, int b){
-        return  pow(a, b);
+    public double exponentation(double a, int b){
+        return  Math.pow(a, b);
     }
 
-    public double exponentation(int a, float b){
-        return  pow(a, b);
+    public double exponentation(int a, double b){
+        return  Math.pow(a, b);
     }
 
     //////// ROOT  ////////////
 
     // second parameter is the root number
     public double root(int a, int b){
-        return  pow(a, 1/b);
+        return  Math.pow(a, 1/b);
     }
 
-    public double root(float a, float b){
-        return  pow(a, 1/b);
+    public double root(double a, double b){
+        return  Math.pow(a, 1/b);
     }
 
-    public double root(float a, int b){
-        return  pow(a, 1/b);
-    }
-
-    public double root(int a, float b){
-        return  pow(a, 1/b);
-    }
 
 }

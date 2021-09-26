@@ -1,6 +1,6 @@
 # **Tesztjegyzőkönyv**
 
-## *Backend tesztelés*
+## **Backend tesztelés**
 
 A szoftver backend része unit tesztekkel lett ellátva.
 
@@ -61,3 +61,19 @@ teszteket a Minőségbiztosítási tervnek megfelelően kell elvégezni. \
 Az átadás-átvétel akkor tekinthető sikeresnek, ha az átadás-átvételre felajánlott rendszerek a
 Rendszertervekben, valamint a Minőségbiztosítási tervben foglalt feltételeknek megfelelnek.
 
+## **Manuális tesztelés**
+
+A manuális tesztelés alatt a Microsoft beépített számológépét vettük referenciaként. \
+*A projekt 100%-osan átment a manuális teszteken.*
+### Szorzás manuális tesztelése
+![Szorzás manuális tesztelése](images/manual_test_1.PNG)
+### Osztás manuális tesztelése
+![Osztás manuális tesztelése](images/manual_test_2.PNG)
+### Összeadás manuális tesztelése
+![Összeadás manuális tesztelése](images/manual_test_3.PNG)
+### Kivonás manuális tesztelése
+![Kivonás manuális tesztelése](images/manual_test_4.PNG)
+### Hatványozás manuális tesztelése
+![Hatványozás manuális tesztelése](images/manual_test_5.PNG)
+### Gyökvonás manuális tesztelése
+![Gyökvonás manuális tesztelése](images/manual_test_6.PNG)

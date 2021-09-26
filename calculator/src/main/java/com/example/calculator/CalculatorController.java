@@ -32,18 +32,8 @@ public class CalculatorController {
         }
         startNumber = false;
     }
-    @FXML
-    private void processDigit(ActionEvent event) {
-        String digitPressed = ((Button) event.getSource()).getText();
-        System.out.println(digitPressed);
-        if (startNumber || display.getText().equals("0")) {
-            display.setText(digitPressed);
-        } else {
-            display.setText(display.getText() + digitPressed);
-        }
-        startNumber = false;
-    }
 
+    @FXML
     private void processOperator(ActionEvent event) {
         String operatorPressed = ((Button) event.getSource()).getText();
         System.out.println(operatorPressed);
@@ -55,15 +45,14 @@ public class CalculatorController {
             System.out.println(operator);
             double result = 0;
             switch (operator) {
-                case "+": { result = calculator.addition(number1, number2); break; }
-                case "-": { result = calculator.subtraction(number1, number2); break; }
-                case "*": { result = calculator.multiplication(number1, number2); break; }
-                case "/": { result = calculator.division(number1, number2); break; }
-                case "√": { result = calculator.root((float) number1, (float) number2); break; }
-                case "xʸ": { result = calculator.exponentation((float) number1, (float) number2); break; }
+                case "+": { result = calculator.addition(number1, number2);  display.setText(String.valueOf(result)); break; }
+                case "-": { result = calculator.subtraction(number1, number2); display.setText(String.valueOf(result)); break; }
+                case "*": { result = calculator.multiplication(number1, number2);  display.setText(String.valueOf(result)); break; }
+                case "/": { if(number2!=0) {result = calculator.division(number1, number2); display.setText(String.valueOf(result));} else  display.setText("error"); break; }
+                case "√": { result = calculator.root((float) number1, (float) number2);  display.setText(String.valueOf(result)); break; }
+                case "xʸ": { result = calculator.exponentation((float) number1, (float) number2);  display.setText(String.valueOf(result)); break; }
             }
             System.out.println(result);
-            display.setText(String.valueOf(result));
             operator = "";
             startNumber = true;
         }else if(operatorPressed.equals("C"))

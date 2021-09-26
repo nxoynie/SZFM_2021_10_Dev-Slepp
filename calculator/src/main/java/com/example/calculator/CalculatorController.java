@@ -22,6 +22,28 @@ public class CalculatorController {
     }
 
     @FXML
+    private void processDigit(ActionEvent event) {
+        String digitPressed = ((Button) event.getSource()).getText();
+        System.out.println(digitPressed);
+        if (startNumber || display.getText().equals("0")) {
+            display.setText(digitPressed);
+        } else {
+            display.setText(display.getText() + digitPressed);
+        }
+        startNumber = false;
+    }
+    @FXML
+    private void processDigit(ActionEvent event) {
+        String digitPressed = ((Button) event.getSource()).getText();
+        System.out.println(digitPressed);
+        if (startNumber || display.getText().equals("0")) {
+            display.setText(digitPressed);
+        } else {
+            display.setText(display.getText() + digitPressed);
+        }
+        startNumber = false;
+    }
+
     private void processOperator(ActionEvent event) {
         String operatorPressed = ((Button) event.getSource()).getText();
         System.out.println(operatorPressed);

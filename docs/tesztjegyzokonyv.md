@@ -72,7 +72,7 @@ A manuális tesztelés alatt a Microsoft beépített számológépét vettük re
 ### Összeadás manuális tesztelése
 ![Összeadás manuális tesztelése](images/manual_test_3.PNG)
 ### Kivonás manuális tesztelése
-!Kivonás manuális tesztelése[](images/manual_test_4.PNG)
+![Kivonás manuális tesztelése](images/manual_test_4.PNG)
 ### Hatványozás manuális tesztelése
 ![Hatványozás manuális tesztelése](images/manual_test_5.PNG)
 ### Gyökvonás manuális tesztelése

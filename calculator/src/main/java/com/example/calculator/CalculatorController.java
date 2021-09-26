@@ -36,6 +36,7 @@ public class CalculatorController {
                 number1=0;
                 display.setText("0");
                 operator= "";
+                return;
                 
             } else {
             if (!operator.isEmpty()) {

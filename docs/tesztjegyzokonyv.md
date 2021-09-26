@@ -83,16 +83,16 @@ A manuális tesztelés alatt a Microsoft beépített számológépét vettük re
 A fizikai eszközzel történő tesztelés során egy SHARP multifunkcionális számológéppel hasonlítottuk össze számológépünket. \
 *A projekt 100%-osan átment a fizikai eszköz teszteken.*
 ### Szorzás fizikai eszközzel történő összehasonlítása
-![Szorzás fizikai tesztelése](images/fizikai_eszkoz_teszt_4.PNG)
+![Szorzás fizikai tesztelése](images/fizikai_eszkoz_teszt_4.jpg)
 ### Osztás fizikai eszközzel történő összehasonlítása
-![Osztás fizikai tesztelése](images/fizikai_eszkoz_teszt_5.PNG)
+![Osztás fizikai tesztelése](images/fizikai_eszkoz_teszt_5.jpg)
 ### Osztás 0-val fizikai eszközzel történő összehasonlítása
-![Osztás 0-val fizikai tesztelése](images/fizikai_eszkoz_teszt_7.PNG)
+![Osztás 0-val fizikai tesztelése](images/fizikai_eszkoz_teszt_7.jpg)
 ### Összeadás fizikai eszközzel történő összehasonlítása
-![Összeadás fizikai tesztelése](images/fizikai_eszkoz_teszt_2.PNG)
+![Összeadás fizikai tesztelése](images/fizikai_eszkoz_teszt_2.jpg)
 ### Kivonás fizikai eszközzel történő összehasonlítása
-![Kivonás fizikai tesztelése](images/fizikai_eszkoz_teszt_6.PNG)
+![Kivonás fizikai tesztelése](images/fizikai_eszkoz_teszt_6.jpg)
 ### Hatványozás fizikai eszközzel történő összehasonlítása
-![Hatványozás fizikai tesztelése](images/fizikai_eszkoz_teszt_3.PNG)
+![Hatványozás fizikai tesztelése](images/fizikai_eszkoz_teszt_3.jpg)
 ### Gyökvonás fizikai eszközzel történő összehasonlítása
-![Gyökvonás fizikai tesztelése](images/fizikai_eszkoz_teszt_1.PNG)
+![Gyökvonás fizikai tesztelése](images/fizikai_eszkoz_teszt_1.jpg)

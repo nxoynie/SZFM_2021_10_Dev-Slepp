@@ -1,5 +1,130 @@
 # Rendszerterv
 
+<h2>Projekt terv:</h2>
+
+<h3>Projektszerepkörök, felelõsségek:</h3>
+<h4>Scrum Master:</h4>
+<p>Felügyeli a folyamat fenntartását, segíti a csapatot probléma esetén. Kezeli a projekt main ágát.<br>
+Felügyeli, hogy a csapattagok betartják-e a Scrum szabályokat, tartják-e a sprint határidejét.</p>
+<h4>Csapat:</h4>
+<p>Felelõsek azért, hogy az aktuális sprintre bevállalt feladatokat elvégezzék.</p>
+
+<h3>Projektmunkások és szerepköreik:</h3>
+<p>Papp Csenge: Scrum Master, Csapat<br>
+Zselenák Flórián: Csapat<br>
+Hosszú Szilárd: Csapat<br>
+Semendi Ádám: Csapat<br>
+Szatmári Boldizsár: Csapat</p>
+
+<h3>Ütemterv:</h3>
+<p>A projekt kivitelezésére egy egyhetes sprint áll rendelkezésre.</p>
+
+<h3>Mérföldkövek:</h3>
+<p>1. Funkciók meghatározása<br>
+2. UI megtervezése<br>
+3. Funkciók kivitelezése<br>
+4. UI kivitelezése<br>
+5. Funkciók integrálása</p>
+
+<h2>Architekturális terv:</h2>
+<p>A projekt során egy MVC Java alkalmazás fog megszületni.<br>
+Az alkalmazás rétegei a Model, View, és Controller rétegek.<br>
+A rendszer könnyen bõvíthetõ extra funkciókkal.<br>
+Biztonsági funkciókra nincs szükség.</p>
+
+<h2>Tesztjegyző könyv:</h2>
+<table>
+    <tr>
+        <td>Rendszer megnevezése</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tesztelés várható idõtartama</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tesztelés erõforrás-szükséglete Vállalkozó oldalon</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tesztelés erõforrás-szükséglete Végsõ Kedvezményezett oldalán</td>
+        <td></td>
+    </tr>
+</table>
+
+<p>Átvételi eljáráson résztvevõk<br>
+Vállalkozó részérõl:<br>
+Aláírás:<br>
+Név:<br>
+Beosztás:<br>
+Dátum:</p>
+
+<p>Végsõ Kedvezményezett részérõl<br>
+Aláírás:<br>
+Név:<br>
+Beosztás:<br>
+Dátum:</p>
+
+|Sorszám|Funkció leírása|Vizsgálat módja/eszköze|Elvárt eredmény|Eredmény|Megfelelõsség státusza [Megfelelõ, Pótlás határideje:]|
+|---|---|---|---|---|---|
+|1.|||||
+|2.|||||
+|3.|||||
+
+
+
+Az alábbi specifikáció tartalmazza az Önök által megálmodott rendszert, amely leírja, hogy
+mit (rendszer), miért (rendszer célja), hogyan (terv), mikor (időpont) és miből
+(erőforrások) akarunk a jövőben létrehozni. 
+
+A fejezetek részletes tájékoztatót nyújtanak az elképzeléseinkről az Önök specifikációja alapján.
+
+A specifikáció tartalmazza a rendszerterv egyes fontos modelljeit (üzleti, adatbázis) valamint különböző leírásokat.
+
+A dokumentum az Önök leírása alapján jött létre a lehető legnagyobb lefedettséggel amit kívánnak.
+
+
+## Üzleti folyamatok modellje
+
+A rendszer üzleti modellje tartalmazza mindazon műveleteket amelyeket a felhasználó végre tud majd hajtani,
+és azon lehetőségeket amelyekkel kapcsolatot tud teremteni a szoftverrel.
+
+A következő műveletek lehetségesek:
+- Műveletek végrehajtása
+- Nincs közvetlen elérése a hibakezeléshez.
+- A számítás végrehajtása után a felhasználó számára biztosított az eredmémy megjelenítése. 
+
+A lent megjelenített ábra vizuálisan tartalmazza ezeknek a folyamatoknak egy gráfos ábrázolását.
+
+A közvetlen elérhető modulok nyíllal kapcsolódnak egymáshoz.
+<br />
+<p align="center">
+  <img src="images/uzleti_logika.png">
+</p>
+
+## Funkcionális terv
+
+A funkcionális tervezet alapján a jogosultságok és modulok elérése van szerepkörökre bontva.
+A termék felhasználása szempontjából egy jogosultság és szerepkiosztás társul, valamint a számológép:
+
+### Felhasználó
+
+A felhasználó képes kezelni a szoftver teljes egészét.
+Az alábbi szempontok elérhetőek számára:
+- Számok összeadásának bevitele
+- Számok kivonásának bevitele
+- Számok szorzásának bevitele
+- Számok osztásának bevitele
+- Törlés
+
+
+Miután a felhasználó az adott műveleteket elvégezte az egyenlőségjel lenyomásával látni fogja az eredményt megjelenítve.
+
+### Számológép
+
+A bemenetén kapott számokra és operátorokra elvégzi az aritmetikai műveleteket.
+Miután elvégezte a számításokat megjeleníti a felhasználó számára az eredményt a kijelzőn.
+
 <h2>Fizikai környezet</h2>
 <ul>
 <li> Az számológép a könnyű hozzáférhetőség és gyors működés érdekében több operációs rendszer környezetében is futtatható alkalmazás lesz</li>
@@ -134,4 +259,6 @@ A rendszer fontosabb komponensei:
 - Vezérlőt tartalmazó komponens, mely a Vezérlésért felelős, a felhasználó által generált eseményekre egy helyes választ adni a modell segítségével.
 - Nézetet tartalmazó FXML-t megvalósító komponens.
 - Nézetet stilizáló CSS-ben megírt rész.
+
+
 

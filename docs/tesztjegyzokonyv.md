@@ -1,5 +1,16 @@
 # **Tesztjegyzőkönyv**
 
+## *Backend tesztelés*
+
+A szoftver backend része unit tesztekkel lett ellátva.
+
+A különböző aritmetikai operátorok minden része le lett fedve.
+
+Tesztelve lettek az összeadás/kivonás/szorzás/osztás/hatványozás/gyökvonás operátorok.
+
+Az operátorok bementül kaptak egész illetve lebegőpontos számokat is.
+
+Így az egységtesztelés eredményét tekintve teljes lefedettséget nyújt a programunk a lebegőpontos és az egész számok esetén is. 
 
 ## **Elvárások**
 Jelen dokumentum célja, hogy az Számológép megvalósítása projektben a program
@@ -49,4 +60,5 @@ a Vállalkozó részéről csak a tesztekben való közreműködés és a feltá
 teszteket a Minőségbiztosítási tervnek megfelelően kell elvégezni. \
 Az átadás-átvétel akkor tekinthető sikeresnek, ha az átadás-átvételre felajánlott rendszerek a
 Rendszertervekben, valamint a Minőségbiztosítási tervben foglalt feltételeknek megfelelnek.
+
 

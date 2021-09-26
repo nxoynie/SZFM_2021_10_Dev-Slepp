@@ -98,7 +98,7 @@ A fizikai eszközzel történő tesztelés során egy SHARP multifunkcionális s
 ### Gyökvonás fizikai eszközzel történő összehasonlítása
 ![Gyökvonás fizikai tesztelése](images/fizikai_eszkoz_teszt_1.jpg)
 
-
+## **Tesztek eredményei**
  Teszt | Eredmény| Művelet | Helyes végeredmény | Kapott végeredmény |
  :----:        |  :-----:        | :------: | :------: | :----: |  
  Összeadás | Sikeres | 5+10 | 15 | 15 | 

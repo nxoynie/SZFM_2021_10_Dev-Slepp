@@ -1,5 +1,4 @@
 package com.example.calculator;
-package calc;
 
 import java.lang.Math;
 

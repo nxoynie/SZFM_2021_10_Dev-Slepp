@@ -20,6 +20,7 @@ public class CalculatorController {
         calculator = new Calculator();
     }
 
+    @FXML
     private void processOperator(ActionEvent event) {
         String operatorPressed = ((Button) event.getSource()).getText();
         System.out.println(operatorPressed);
@@ -28,17 +29,28 @@ public class CalculatorController {
                 return;
             }
             double number2 = Double.parseDouble(display.getText());
-            double result = calculator.calculate(number1, number2, operator);
-            display.setText(String.format("%.0f", result));
+            System.out.println(operator);
+            double result = 0;
+            switch (operator) {
+                case "+": { result = calculator.addition(number1, number2); break; }
+                case "-": { result = calculator.subtraction(number1, number2); break; }
+                case "*": { result = calculator.multiplication(number1, number2); break; }
+                case "/": { result = calculator.division(number1, number2); break; }
+                case "√": { result = calculator.root((float) number1, (float) number2); break; }
+                case "xʸ": { result = calculator.exponentation((float) number1, (float) number2); break; }
+            }
+            System.out.println(result);
+            display.setText(String.valueOf(result));
             operator = "";
+            startNumber = true;
         }else if(operatorPressed.equals("C"))
-            {
-                number1=0;
-                display.setText("0");
-                operator= "";
-                return;
-                
-            } else {
+        {
+            number1=0;
+            display.setText("0");
+            operator= "";
+            return;
+
+        } else {
             if (!operator.isEmpty()) {
                 return;
             }

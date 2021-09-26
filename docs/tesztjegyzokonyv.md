@@ -77,3 +77,14 @@ A manuális tesztelés alatt a Microsoft beépített számológépét vettük re
 ![Hatványozás manuális tesztelése](images/manual_test_5.PNG)
 ### Gyökvonás manuális tesztelése
 ![Gyökvonás manuális tesztelése](images/manual_test_6.PNG)
+
+ Teszt | Eredmény| Művelet | Helyes végeredmény | Kapott végeredmény |
+ :----:        |  :-----:        | :------: | :------: | :----: |  
+ Összeadás | Sikeres | 5+10 | 15 | 15 | 
+ Kivonás | Sikeres | 3-1 | 2 | 2
+ Osztás | Sikeres | 5/0 | Nem elvégezhető | error |
+ Szorzás | Sikeres | 4*4 | 16 | 16 |
+ Gyökvonás| Sikeres | √9 | 3| 3 |
+ Hatványozás | Sikeres | 2^3 | 8 | 8 |
+ Clear gomb | Sikeres | - | - | - |
+

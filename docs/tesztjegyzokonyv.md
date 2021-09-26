@@ -66,14 +66,14 @@ Rendszertervekben, valamint a Minőségbiztosítási tervben foglalt feltételek
 A manuális tesztelés alatt a Microsoft beépített számológépét vettük referenciaként. \
 *A projekt 100%-osan átment a manuális teszteken.*
 ### Szorzás manuális tesztelése
-![](images/manual_test_1.png)
+![Szorzás manuális tesztelése](images/manual_test_1.PNG)
 ### Osztás manuális tesztelése
-![](images/manual_test_2.png)
+![Osztás manuális tesztelése](images/manual_test_2.PNG)
 ### Összeadás manuális tesztelése
-![](images/manual_test_3.png)
+![Összeadás manuális tesztelése](images/manual_test_3.PNG)
 ### Kivonás manuális tesztelése
-![](images/manual_test_4.png)
+!Kivonás manuális tesztelése[](images/manual_test_4.PNG)
 ### Hatványozás manuális tesztelése
-![](images/manual_test_5.png)
+![Hatványozás manuális tesztelése](images/manual_test_5.PNG)
 ### Gyökvonás manuális tesztelése
-![](images/manual_test_6.png)
+![Gyökvonás manuális tesztelése](images/manual_test_6.PNG)

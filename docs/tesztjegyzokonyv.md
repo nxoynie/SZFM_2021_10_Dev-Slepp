@@ -61,4 +61,3 @@ teszteket a Minőségbiztosítási tervnek megfelelően kell elvégezni. \
 Az átadás-átvétel akkor tekinthető sikeresnek, ha az átadás-átvételre felajánlott rendszerek a
 Rendszertervekben, valamint a Minőségbiztosítási tervben foglalt feltételeknek megfelelnek.
 
-

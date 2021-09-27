@@ -61,6 +61,217 @@ teszteket a Minőségbiztosítási tervnek megfelelően kell elvégezni. \
 Az átadás-átvétel akkor tekinthető sikeresnek, ha az átadás-átvételre felajánlott rendszerek a
 Rendszertervekben, valamint a Minőségbiztosítási tervben foglalt feltételeknek megfelelnek.
 
+
+<h2>Funkciótesztjegyzőkönyv</h2>
+<table>
+    <tr>
+        <td>Rendszer megnevezése</td>
+        <td>Számológép</td>
+    </tr>
+    <tr>
+        <td>Tesztelés várható időtartama</td>
+        <td>1 nap</td>
+    </tr>
+    <tr>
+        <td>Tesztelés erőforrás-szükséglete Vállalkozó oldalon</td>
+        <td>Alacsony</td>
+    </tr>
+    <tr>
+        <td>Tesztelés erőforrás-szükséglete Végső Kedvezményezett oldalán</td>
+        <td>Alacsony</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>Sorszám</td>
+        <td>Funkció leírása</td>
+        <td>Vizsgálat módja/eszköze</td>
+        <td>Elvárt eredmény</td>
+        <td>Eredmény</td>
+        <td>Megfelelősség státusza [Megfelelő, Pótlás határideje:]</td>
+    </tr>
+    <tr>
+        <td>Általános funkcionális teszt</td>
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>Összeadás</td>
+        <td>JUnit teszt során teszteljük az összeadás függvényt a következő számokkal: 10, 10</td>
+        <td>20</td>
+        <td>20</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>Összeadás</td>
+        <td>JUnit teszt során teszteljük az összeadás függvényt a következő számokkal: 10.5, 10.5</td>
+        <td>21</td>
+        <td>21</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>3.</td>
+        <td>Összeadás</td>
+        <td>JUnit teszt során teszteljük az összeadás függvényt a következő számokkal: 10, 10.5</td>
+        <td>20.5</td>
+        <td>20.5</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>4.</td>
+        <td>Összeadás</td>
+        <td>JUnit teszt során teszteljük az összeadás függvényt a következő számokkal: 10.5, 10</td>
+        <td>20.5</td>
+        <td>20.5</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>5.</td>
+        <td>Kivonás</td>
+        <td>JUnit teszt során teszteljük az kivonás függvényt a következő számokkal: 20, 10</td>
+        <td>10</td>
+        <td>10</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>6.</td>
+        <td>Kivonás</td>
+        <td>JUnit teszt során teszteljük az kivonás függvényt a következő számokkal: 20, 10.5</td>
+        <td>9.5</td>
+        <td>9.5</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>7.</td>
+        <td>Kivonás</td>
+        <td>JUnit teszt során teszteljük az kivonás függvényt a következő számokkal: 20.5, 10</td>
+        <td>10.5</td>
+        <td>10.5</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>8.</td>
+        <td>Kivonás</td>
+        <td>JUnit teszt során teszteljük az kivonás függvényt a következő számokkal: 20.5, 10.5</td>
+        <td>10</td>
+        <td>10</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>9.</td>
+        <td>Szorzás</td>
+        <td>JUnit teszt során teszteljük az szorzás függvényt a következő számokkal: 5, 5</td>
+        <td>25</td>
+        <td>25</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>10.</td>
+        <td>Szorzás</td>
+        <td>JUnit teszt során teszteljük az szorzás függvényt a következő számokkal: 5.5, 5.2</td>
+        <td>28.6</td>
+        <td>28.6</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>11.</td>
+        <td>Szorzás</td>
+        <td>JUnit teszt során teszteljük az szorzás függvényt a következő számokkal: 5, 5.5</td>
+        <td>27.5</td>
+        <td>27.5</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>12.</td>
+        <td>Szorzás</td>
+        <td>JUnit teszt során teszteljük az szorzás függvényt a következő számokkal: 5.5, 5</td>
+        <td>27.5</td>
+        <td>27.5</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>13.</td>
+        <td>Osztás</td>
+        <td>JUnit teszt során teszteljük az osztás függvényt a következő számokkal: 10, 10</td>
+        <td>1</td>
+        <td>1</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>14.</td>
+        <td>Osztás</td>
+        <td>JUnit teszt során teszteljük az osztás függvényt a következő számokkal: 10.5, 3.5</td>
+        <td>3</td>
+        <td>3</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>15.</td>
+        <td>Osztás</td>
+        <td>JUnit teszt során teszteljük az osztás függvényt a következő számokkal: 10.5, 2</td>
+        <td>3.5</td>
+        <td>3.5</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>16.</td>
+        <td>Osztás</td>
+        <td>JUnit teszt során teszteljük az osztás függvényt a következő számokkal: 10, 2.5</td>
+        <td>4</td>
+        <td>4</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>17.</td>
+        <td>Hatványozás</td>
+        <td>JUnit teszt során teszteljük az hatványozás függvényt a következő számokkal: 10, 2</td>
+        <td>100</td>
+        <td>100</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>18.</td>
+        <td>Hatványozás</td>
+        <td>JUnit teszt során teszteljük az hatványozás függvényt a következő számokkal: 10.2, 2.2</td>
+        <td>165.546</td>
+        <td>165.546</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>19.</td>
+        <td>Hatványozás</td>
+        <td>JUnit teszt során teszteljük az hatványozás függvényt a következő számokkal: 10.2, 2</td>
+        <td>104.04</td>
+        <td>104.04</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>20.</td>
+        <td>Hatványozás</td>
+        <td>JUnit teszt során teszteljük az hatványozás függvényt a következő számokkal: 10, 2.2</td>
+        <td>4.54</td>
+        <td>4.54</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>21.</td>
+        <td>Gyökvonás</td>
+        <td>JUnit teszt során teszteljük az gyökvonás függvényt a következő számokkal: 9, 2</td>
+        <td>3</td>
+        <td>3</td>
+        <td>Megfelelő</td>
+    </tr>
+    <tr>
+        <td>22.</td>
+        <td>Gyökvonás</td>
+        <td>JUnit teszt során teszteljük az gyökvonás függvényt a következő számokkal: 9.5, 2.5</td>
+        <td>2.46</td>
+        <td>2.46</td>
+        <td>Megfelelő</td>
+    </tr>
+</table>
+
 ## **Manuális tesztelés**
 
 A manuális tesztelés alatt a Microsoft beépített számológépét vettük referenciaként. \
@@ -108,4 +319,5 @@ A fizikai eszközzel történő tesztelés során egy SHARP multifunkcionális s
  Gyökvonás| Sikeres | √9 | 3| 3 |
  Hatványozás | Sikeres | 2^3 | 8 | 8 |
  Clear gomb | Sikeres | - | - | - |
+
 

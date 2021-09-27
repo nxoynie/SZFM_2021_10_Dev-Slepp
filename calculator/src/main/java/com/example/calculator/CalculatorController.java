@@ -1,6 +1,6 @@
 package com.example.calculator;
 
-import com.example.calculator.CalculatorModell;
+import com.example.calculator.CalculatorModel;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -11,14 +11,14 @@ public class CalculatorController {
     @FXML
     private TextField display;
 
-    private CalculatorModell calculator;
+    private CalculatorModel calculator;
     private boolean startNumber = true;
     private double number1;
     private String operator = "";
 
     @FXML
     private void initialize() {
-        calculator = new CalculatorModell();
+        calculator = new CalculatorModel();
     }
 
     @FXML

@@ -1,6 +1,6 @@
 # **Tesztjegyzőkönyv**
 
-## *Backend tesztelés*
+## **Backend tesztelés**
 
 A szoftver backend része unit tesztekkel lett ellátva.
 
@@ -60,6 +60,7 @@ a Vállalkozó részéről csak a tesztekben való közreműködés és a feltá
 teszteket a Minőségbiztosítási tervnek megfelelően kell elvégezni. \
 Az átadás-átvétel akkor tekinthető sikeresnek, ha az átadás-átvételre felajánlott rendszerek a
 Rendszertervekben, valamint a Minőségbiztosítási tervben foglalt feltételeknek megfelelnek.
+
 
 <h2>Funkciótesztjegyzőkönyv</h2>
 <table>
@@ -270,3 +271,53 @@ Rendszertervekben, valamint a Minőségbiztosítási tervben foglalt feltételek
         <td>Megfelelő</td>
     </tr>
 </table>
+
+## **Manuális tesztelés**
+
+A manuális tesztelés alatt a Microsoft beépített számológépét vettük referenciaként. \
+*A projekt 100%-osan átment a manuális teszteken.*
+### Szorzás manuális tesztelése
+![Szorzás manuális tesztelése](images/manual_test_1.PNG)
+### Osztás manuális tesztelése
+![Osztás manuális tesztelése](images/manual_test_2.PNG)
+### Összeadás manuális tesztelése
+![Összeadás manuális tesztelése](images/manual_test_3.PNG)
+### Kivonás manuális tesztelése
+![Kivonás manuális tesztelése](images/manual_test_4.PNG)
+### Hatványozás manuális tesztelése
+![Hatványozás manuális tesztelése](images/manual_test_5.PNG)
+### Gyökvonás manuális tesztelése
+![Gyökvonás manuális tesztelése](images/manual_test_6.PNG)
+
+
+## **Fizikai eszközzel való tesztelés**
+
+A fizikai eszközzel történő tesztelés során egy SHARP multifunkcionális számológéppel hasonlítottuk össze számológépünket. \
+*A projekt 100%-osan átment a fizikai eszköz teszteken.*
+### Szorzás fizikai eszközzel történő összehasonlítása
+![Szorzás fizikai tesztelése](images/fizikai_eszkoz_teszt_4.jpg)
+### Osztás fizikai eszközzel történő összehasonlítása
+![Osztás fizikai tesztelése](images/fizikai_eszkoz_teszt_5.jpg)
+### Osztás 0-val fizikai eszközzel történő összehasonlítása
+![Osztás 0-val fizikai tesztelése](images/fizikai_eszkoz_teszt_7.jpg)
+### Összeadás fizikai eszközzel történő összehasonlítása
+![Összeadás fizikai tesztelése](images/fizikai_eszkoz_teszt_2.jpg)
+### Kivonás fizikai eszközzel történő összehasonlítása
+![Kivonás fizikai tesztelése](images/fizikai_eszkoz_teszt_6.jpg)
+### Hatványozás fizikai eszközzel történő összehasonlítása
+![Hatványozás fizikai tesztelése](images/fizikai_eszkoz_teszt_3.jpg)
+### Gyökvonás fizikai eszközzel történő összehasonlítása
+![Gyökvonás fizikai tesztelése](images/fizikai_eszkoz_teszt_1.jpg)
+
+## **Tesztek eredményei**
+ Teszt | Eredmény| Művelet | Helyes végeredmény | Kapott végeredmény |
+ :----:        |  :-----:        | :------: | :------: | :----: |  
+ Összeadás | Sikeres | 5+10 | 15 | 15 | 
+ Kivonás | Sikeres | 3-1 | 2 | 2
+ Osztás | Sikeres | 5/0 | Nem elvégezhető | error |
+ Szorzás | Sikeres | 4*4 | 16 | 16 |
+ Gyökvonás| Sikeres | √9 | 3| 3 |
+ Hatványozás | Sikeres | 2^3 | 8 | 8 |
+ Clear gomb | Sikeres | - | - | - |
+
+
